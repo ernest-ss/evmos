@@ -1,6 +1,6 @@
 ### build dockerfile
 
-rm -rf ./chainData/er
+rm -rf ./chainData/ernest
 ../../build/evmosd testnet init-files --v 8 -o ./chainData/ernest --keyring-backend=test --starting-ip-address 192.167.10.2 --chain-id evmos_9000-1
 
   for i in {0..7}; do
